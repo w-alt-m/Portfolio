@@ -1,5 +1,5 @@
 EN:
-This is my first challenge in HTML + CSS that I'm working on as practice and as my little first project.
+This is a recipe article in HTML + CSS that I'm working on as practice and as my little first project.
 
 Link to the original challenge website: https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm
 
