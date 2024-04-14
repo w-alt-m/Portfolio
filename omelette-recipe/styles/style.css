@@ -5,6 +5,7 @@
 
 body {
   background-color: rgb(255, 247, 237);
+  min-height: 100vh;
 }
 
 article {
@@ -71,8 +72,13 @@ h3 {
   color: purple;
 }
 
+p {
+  color: rgb(63, 63, 63);
+}
+
 li {
   margin-left: 50px;
+  color: rgb(63, 63, 63);
 }
 
 .nutrition-table {
@@ -82,4 +88,10 @@ li {
 .nutri-num-value {
   display: flex;
   justify-content: end;
+  color: brown;
+  font-weight: 900;
+}
+
+strong {
+  font-weight: 850;
 }
