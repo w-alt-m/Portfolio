@@ -74,3 +74,12 @@ h3 {
 li {
   margin-left: 50px;
 }
+
+.nutrition-table {
+  margin-top: 40px;
+}
+
+.nutri-num-value {
+  display: flex;
+  justify-content: end;
+}
