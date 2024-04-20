@@ -6,7 +6,7 @@
 /*  */
 body {
   height: 100vh;
-  background-color: e5eff5;
+  background-color: #e6eff6;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,15 +15,24 @@ body {
 
 /*  */
 article {
-  width: 60%;
+  max-width: 60%;
   background-color: white;
   border-radius: 10px;
   box-shadow: 0px 0px 32px 4px rgba(0, 0, 0, 0.34);
+  min-width: 370px;
 }
 
 /* Card's first half */
 .first-half {
   padding: 40px;
+}
+
+.first-half p {
+  color: #838486ad;
+}
+
+.first-half div {
+  margin: 20px 0px 0px 00px;
 }
 
 /* Card's second half */
@@ -50,19 +59,38 @@ article {
 .second-half .sub1 {
   background-color: rgb(0, 179, 177);
   padding: 50px;
-  color: white;
+  color: rgba(255, 255, 255, 0.9);
   width: 50%;
+  border-radius: 0 0 0 10px;
+}
+
+.second-half .sub1 p {
+  margin: 15px 0 15px 0;
 }
 
 .second-half .sub2 {
   background-color: rgb(48, 189, 189);
   padding: 50px;
-  color: white;
+  color: rgba(255, 255, 255, 0.9);
   width: 50%;
+  border-radius: 0 0 10px 0;
 }
 
 .second-half li {
   list-style-type: none;
+}
+
+.second-half ul {
+  margin-top: 20px;
+}
+
+strong {
+  font-size: 40px;
+}
+
+span {
+  color: #ffffff8f;
+  margin-left: 10px;
 }
 
 /*  */
@@ -74,8 +102,4 @@ h2 {
 h3 {
   color: rgb(191, 218, 97);
   margin-top: 20px;
-}
-
-.p1 {
-  margin: 10px 0px 30px 0px;
 }
