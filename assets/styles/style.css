@@ -37,7 +37,7 @@ a {
   color: aliceblue;
 }
 
-a:hover {
+.challs a:hover {
   background-color: blue;
 }
 
@@ -45,4 +45,10 @@ p {
   color: white;
   margin: 50px;
   text-align: center;
+}
+
+i {
+  color: white;
+  font-size: 50px;
+  margin-top: 16px;
 }
