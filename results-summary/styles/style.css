@@ -2,3 +2,91 @@
   padding: 0;
   margin: 0;
 }
+
+body {
+  /* I set the body to display:flex; in order to align it on the X axis with justify-content:center; */
+  display: flex;
+  justify-content: center;
+
+  /* To align it on the Y axis with align-items, I have to set the height with height:100vh; */
+  height: 100vh;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.main-container {
+  display: flex;
+  width: 400px;
+  border-radius: 25px;
+  box-shadow: 0px 0px 25px 3px rgba(0, 0, 0, 0.2);
+}
+
+.result {
+  width: 50%;
+  background-color: #6743ff;
+  background-image: linear-gradient(#6743ff, #312ceb);
+  padding: 30px;
+  text-align: center;
+  color: white;
+  border-radius: 25px;
+}
+
+.result h5,
+.summary h5 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.result h6 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.result p {
+  font-size: 14px;
+}
+
+.result span {
+  font-size: 35px;
+}
+
+.percentage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px auto;
+  background-color: #4a24cf;
+  background-image: linear-gradient(#4e23ca, #4634f0);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.summary {
+  width: 50%;
+  padding: 20px;
+}
+
+.summary ul {
+  list-style: none;
+}
+
+.summary ul li {
+  background-color: yellowgreen;
+  margin: 20px 0;
+  padding: 8px;
+  border-radius: 6px;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.summary button {
+  width: 100%;
+  padding: 5px 10px;
+  background-color: #303b59;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 10px;
+}
