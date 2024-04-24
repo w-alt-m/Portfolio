@@ -35,6 +35,10 @@ a {
   color: white;
 }
 
+.challs a:hover {
+  background-color: blue;
+}
+
 /* Content */
 
 p {
