@@ -3,6 +3,12 @@
   margin: 0;
 }
 
+@media (max-width: 480px) {
+  article {
+    padding: 5px;
+  }
+}
+
 body {
   background-color: rgb(255, 247, 237);
   min-height: 100vh;
