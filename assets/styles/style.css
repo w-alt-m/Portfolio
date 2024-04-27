@@ -7,6 +7,7 @@
 #page-container {
   position: relative;
   min-height: 100vh;
+  min-width: 362px;
   background-color: black;
 }
 
@@ -17,15 +18,13 @@
 /* Navigation bar */
 
 nav {
-  display: flex;
-  flex-wrap: wrap;
   padding: 30px;
   border: 1px solid grey;
-  justify-content: end;
 }
 
-.challs {
+nav .challs {
   display: flex;
+  flex-wrap: wrap;
 }
 
 a {
