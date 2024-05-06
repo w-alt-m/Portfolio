@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.cont {
+  display: flex;
+  width: 750px;
+  height: 550px;
+  background-color: white;
+  box-shadow: 0px 0px 25px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.img__cont,
+.content__cont {
+  width: 50%;
+}
+
+.img__cont img {
+  width: 100%;
+}
+
+.content__cont {
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.content__cont h5,
+h2,
+p {
+  margin: 50px 0;
+}
+
+h5 {
+  color: gray;
+  letter-spacing: 5px;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.description {
+  color: gray;
+}
+
+.price {
+  display: flex;
+}
+
+.price strong {
+  font-size: 30px;
+  color: #3f7e67;
+}
+
+.price span {
+  text-decoration: line-through;
+  margin: auto;
+}
+
+button {
+  display: flex;
+  background-color: #3f7e67;
+  border: none;
+  border-radius: 10px;
+  height: 60px;
+  width: 90%;
+  color: white;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+button i {
+  font-size: 18px;
+  margin: 0 10px 4px 0;
+}
