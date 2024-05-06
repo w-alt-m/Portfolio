@@ -8,13 +8,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: #f3eae3;
 }
 
 .cont {
   display: flex;
-  width: 750px;
-  height: 550px;
+  width: 650px;
+  height: 480px;
   background-color: white;
   box-shadow: 0px 0px 25px 3px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -32,27 +32,45 @@ body {
 
 .content__cont {
   box-sizing: border-box;
-  padding: 30px;
+  padding: 17px 35px;
+  display: flex;
+  flex-direction: column;
 }
 
 .content__cont h5,
 h2,
 p {
-  margin: 50px 0;
+  margin: 16px 0;
+}
+
+.content__cont h5,
+.description,
+.price span,
+button {
+  font-family: "Montserrat", sans-serif;
+}
+
+.content__cont h2,
+.price strong {
+  font-family: "Fraunces", serif;
 }
 
 h5 {
-  color: gray;
+  color: rgba(128, 128, 128, 0.774);
   letter-spacing: 5px;
+  font-weight: 700;
 }
 
 h2 {
-  font-size: 30px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 35px;
 }
 
 .description {
-  color: gray;
+  color: rgba(128, 128, 128, 0.774);
+  font-weight: 500;
+  line-height: 22px;
 }
 
 .price {
@@ -62,11 +80,16 @@ h2 {
 .price strong {
   font-size: 30px;
   color: #3f7e67;
+  font-weight: 900;
 }
 
 .price span {
   text-decoration: line-through;
   margin: auto;
+  font-size: 13px;
+  color: rgba(128, 128, 128, 0.774);
+  font-weight: 500;
+  padding-right: 30px;
 }
 
 button {
@@ -74,7 +97,7 @@ button {
   background-color: #3f7e67;
   border: none;
   border-radius: 10px;
-  height: 60px;
+  height: 50px;
   width: 90%;
   color: white;
   font-weight: 600;
