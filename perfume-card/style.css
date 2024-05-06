@@ -26,8 +26,10 @@ body {
   width: 50%;
 }
 
-.img__cont img {
-  width: 100%;
+.img__cont .img {
+  background-image: url("./perfume_desktop.jpg");
+  background-size: cover;
+  height: 100%;
 }
 
 .content__cont {
@@ -109,4 +111,45 @@ button {
 button i {
   font-size: 18px;
   margin: 0 10px 4px 0;
+}
+
+@media (max-width: 480px) {
+  .cont {
+    flex-direction: column;
+    height: 100%;
+    width: 420px;
+    margin: 10px;
+  }
+
+  .img__cont {
+    width: 100%;
+  }
+
+  .content__cont {
+    width: 100%;
+    padding: 20px 30px 20px 30px;
+  }
+
+  .img__cont .img {
+    background-image: url("./perfume_mobile.jpg");
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+  }
+
+  .content__cont h5,
+  h2,
+  p {
+    margin: 8px 0;
+    padding-right: 50px;
+  }
+
+  .price span {
+    margin: auto 20px;
+  }
+
+  button {
+    width: 100%;
+    align-self: center;
+  }
 }
