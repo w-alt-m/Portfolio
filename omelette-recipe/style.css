@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: rgb(255, 247, 237);
+  background-color: hsl(30, 54%, 90%);
   min-height: 100vh;
 }
 
@@ -12,8 +12,9 @@ article {
   border-radius: 25px;
   background-color: white;
   margin: 50px auto;
-  width: 50%;
-  padding: 30px;
+  width: 40%;
+  padding: 40px;
+  box-sizing: border-box;
   box-shadow: 0px 0px 25px 3px rgba(0, 0, 0, 0.2);
 }
 
@@ -23,27 +24,30 @@ article {
 }
 
 .img-omelette {
-  max-width: 100%;
+  width: 100%;
   border-radius: 14px;
 }
 
 .prep-time {
-  background-color: rgba(252, 231, 245, 0.377);
+  background-color: hsl(330, 100%, 98%);
   border-radius: 10px;
   padding: 10px 20px;
 }
 
+.prep-time li {
+  font-weight: 400;
+}
+
 h1,
 h2 {
-  font-family: "PT Serif", serif;
+  font-family: "Young Serif", serif;
   font-weight: 400;
-  font-style: normal;
 }
 
 p,
 li,
 h3 {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-weight: 650;
@@ -60,26 +64,30 @@ h3 {
 h1 {
   font-size: 44px;
   font-weight: 800;
+  color: hsl(24, 5%, 18%);
 }
 
 h2 {
   font-size: 33px;
   font-weight: 700;
-  color: rgb(143, 48, 48);
+  color: hsl(14, 45%, 36%);
 }
 
 h3 {
   font-weight: 800;
-  color: purple;
+  color: hsl(332, 51%, 32%);
 }
 
 p {
-  color: rgb(63, 63, 63);
+  color: hsl(30, 10%, 34%);
+  font-size: 16px;
+  font-weight: 400;
 }
 
 li {
   margin-left: 50px;
   color: rgb(63, 63, 63);
+  font-weight: 400;
 }
 
 strong {
