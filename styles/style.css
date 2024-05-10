@@ -123,46 +123,52 @@ section {
 }
 
 /* Form */
+
+h2 {
+    text-align: center;
+}
+
 form {
     background-color: #f9f9f9;
     padding: 20px;
     border-radius: 8px;
-  }
-  
- form button {
+    width: 30%;
+    margin: auto;
+}
+
+form button {
     background-color: #4fb652;
     color: white;
     border-radius: 5px;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
-  }
-  
-  input {
+}
+
+input {
     width: 100%;
     outline: none;
     border: 1px solid gray;
     border-radius: 3px;
     height: 22px;
     margin-top: 4px;
-  }
-  
-  textarea {
+}
+
+textarea {
     width: 100%;
     margin-top: 15px;
     border-radius: 3px;
     resize: none;
-  }
+}
 
-  #name:focus {
+#name:focus {
     border: 2px solid black;
-  }
-  
-  #email:focus {
+}
+
+#email:focus {
     border: 2px solid black;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     background-color: #57ce5b;
-  }
-  
+}
