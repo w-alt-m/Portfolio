@@ -7,14 +7,17 @@
 
 /* Variables */
 :root {
-    --background-color: black;
-    --secondary-color: cadetblue;
+    --color1: #FF204E;
+    --color2: #A0153E;
+    --background-color-1: #00224D;
+    --background-color-2: #5D0E41;
+    
 }
 
 /* Header */
 header {
     display: flex;
-    background-color: var(--background-color);
+    background-color: var(--background-color-1);
     padding: 20px;
     align-items: center;
     justify-content: space-around;
@@ -31,12 +34,12 @@ header nav ul {
 }
 
 header nav ul li a {
- text-decoration: none;
- color: white;
+    text-decoration: none;
+    color: white;
 }
 header nav ul li a:hover {
-    color: var(--secondary-color);
-   }
+    color: var(--color1);
+}
 
 /* Sections */
 section {
@@ -101,18 +104,18 @@ section {
     display: block;
     width: 50%;
     margin: 10px auto;
-    background-color: var(--secondary-color);
+    background-color: var(--color1);
     border-radius: 20px;
     color: white;
 }
 
 
 #projects {
-    background-color: var(--background-color);
+    background-color: var(--background-color-1);
 }
 
 #education {
-    background-color: azure;
+    background-color: var(--background-color-1);
 }
 
 /* Scroll button */
@@ -136,7 +139,7 @@ section {
 /* Contact */
 
 #contact {
-    background-color: cadetblue;
+    background-color: var(--background-color-2);
 }
 
 h2 {
@@ -144,7 +147,7 @@ h2 {
 }
 
 form {
-    background-color: #f9f9f9;
+    background-color: var(--background-color-1);
     padding: 20px;
     border-radius: 8px;
     width: 30%;
@@ -152,7 +155,7 @@ form {
 }
 
 form button {
-    background-color: #4fb652;
+    background-color: var(--color2);
     color: white;
     border-radius: 5px;
     padding: 10px 20px;
@@ -185,5 +188,5 @@ textarea {
 }
 
 button:hover {
-    background-color: #57ce5b;
+    background-color: var(--color1);
 }
