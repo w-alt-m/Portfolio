@@ -1,8 +1,8 @@
 * {
     margin: 0;
     padding:  0;
-    font-family: "Montserrat", sans-serif;
     scroll-behavior: smooth;
+    
 }
 
 /* Variables */
@@ -14,10 +14,23 @@
     
 }
 
+/* General */
+
+body {
+    color:white;
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--color-3);
+}
+
+section {
+    padding: 30px;
+    min-height: 80vh;
+}
+
+
 /* Header */
 header {
     display: flex;
-    background-color: var(--color-3);
     padding: 20px;
     align-items: center;
     justify-content: space-around;
@@ -35,20 +48,15 @@ header nav ul {
 
 header nav ul li a {
     text-decoration: none;
-    color: white;
-}
-header nav ul li a:hover {
-    color: var(--color-1);
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.8);
 }
 
-/* Sections */
-section {
-    padding: 30px;
-    min-height: 80vh;
+header nav ul li a:hover {
+    color: var(--color-2);
 }
 
 /* Banner */
-
 
 #banner {
     display: flex;
@@ -57,6 +65,7 @@ section {
     background-image:url("../assets/background.jpg");
     background-size: cover;
     color: white;
+    padding-left: 150px;
 }
 
 #banner img {
@@ -75,7 +84,7 @@ section {
 #banner p {
     width: 48%;
     font-size: 24px;
-    color: rgba(255, 255, 255, 0.979);
+    color: rgba(255, 255, 255, 0.9);
 }
 
 /* Projects / Education */
@@ -83,9 +92,10 @@ section {
     text-align: center;
 }
 
-#projects h2, #education h2 {
+#projects h2, #education h2, #contact h2 {
     font-size: 30px;
     color: white;
+    text-align: center;
 }
 
 #projects .projects-grid-container, #education .education-grid-container {
@@ -120,15 +130,6 @@ section {
     color: white;
 }
 
-
-#projects {
-    background-color: var(--color-3);
-}
-
-#education {
-    background-color: var(--color-3);
-}
-
 /* Scroll button */
 .scroll-up {
     position: fixed;
@@ -149,17 +150,7 @@ section {
 
 /* Contact */
 
-#contact {
-    background-color: var(--color-4);
-    color: white;
-}
-
-h2 {
-    text-align: center;
-}
-
 form {
-    background-color: var(--color-3);
     padding: 20px;
     border-radius: 8px;
     width: 30%;
@@ -201,10 +192,4 @@ textarea {
 
 button:hover {
     background-color: var(--color-1);
-}
-
-/* Footer */
-
-footer {
-    background-color: var(--color-2);
 }
