@@ -8,7 +8,7 @@
 /* Variables */
 :root {
     --background-color: black;
-    --secondary-color: orange;
+    --secondary-color: cadetblue;
 }
 
 /* Header */
@@ -71,6 +71,7 @@ section {
 
 #projects h2, #education h2 {
     font-size: 30px;
+    color: white;
 }
 
 #projects .projects-grid-container, #education .education-grid-container {
@@ -107,7 +108,7 @@ section {
 
 
 #projects {
-    background-color: bisque;
+    background-color: var(--background-color);
 }
 
 #education {
