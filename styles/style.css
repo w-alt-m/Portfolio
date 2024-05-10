@@ -48,6 +48,8 @@ section {
 }
 
 /* Banner */
+
+
 #banner {
     display: flex;
     flex-direction: column;
@@ -55,6 +57,15 @@ section {
     background-image:url("../assets/background.jpg");
     background-size: cover;
     color: white;
+}
+
+#banner img {
+    width: 15%;
+    position: absolute;
+    right: 400px;
+    background-color:#070f2b85;
+    border-radius: 100%;
+    transform: scaleX(-1);
 }
 
 #banner h1 {
