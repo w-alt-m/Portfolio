@@ -226,9 +226,78 @@ button:hover {
 }
 
 /* Footer */
-
 footer {
     text-align: center;
     padding: 20px;
     background-color: black;
+}
+
+
+/* Responsive */
+@media (max-width: 880px) {
+    #projects .projects-grid-container, 
+    #education .education-grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    form {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* projects/education */
+    #projects .projects-grid-container, 
+    #education .education-grid-container {
+        grid-template-columns: 1fr;
+    }
+    
+    /* header */
+    header {
+        display: flex;
+        padding: 10px;
+        justify-content: space-evenly;
+    }
+    
+    header img {
+        width: 100px;
+    }
+
+    header nav {
+    }
+        
+    header nav ul {
+        
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px;
+    }
+    
+    header nav ul li a {
+        font-weight: 600;
+    }
+    
+    /* banner */
+    #banner {
+        display: block;
+        padding-left: 20px;
+    }
+    
+    #banner img {
+        width: 20%;
+        right: 35px;
+        top: 250px;
+    }
+    
+    #banner p {
+        width: 100%;
+        font-size: 20px;
+        margin: 30px 0;
+    }
+
+    /* form */
+    form {
+        width: 100%;
+        padding: 15px;
+    }
 }
