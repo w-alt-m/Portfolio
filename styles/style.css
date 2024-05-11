@@ -235,10 +235,36 @@ footer {
 
 /* Responsive */
 @media (max-width: 880px) {
-    #projects .projects-grid-container, 
+    
+    /* Projects/Education */
+        #projects .projects-grid-container, 
     #education .education-grid-container {
         grid-template-columns: 1fr 1fr;
     }
+    
+    /* Header */
+    
+    header nav ul li a {
+        font-weight: 600;
+    }
+
+    /* Banner */
+    #banner {
+        padding-left: 20px;
+    }
+    
+    #banner img {
+        width: 30%;
+        right: 35px;
+        top: 250px;
+    }
+    
+    #banner p {
+        width: 80%;
+        font-size: 30px;
+    }
+    
+    /* Form */
     form {
         width: 100%;
         padding: 15px;
@@ -262,12 +288,8 @@ footer {
     header img {
         width: 100px;
     }
-
-    header nav {
-    }
         
     header nav ul {
-        
         flex-direction: column;
         gap: 15px;
         padding: 10px;
