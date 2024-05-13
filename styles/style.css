@@ -68,7 +68,7 @@ header nav ul li a:hover {
     padding-left: 150px;
 }
 
-#banner img {
+#banner .banner-img img {
     width: 15%;
     position: absolute;
     right: 400px;
@@ -77,11 +77,11 @@ header nav ul li a:hover {
     transform: scaleX(-1);
 }
 
-#banner h1 {
+#banner .banner-text h1 {
     font-size: 40px;
 }
 
-#banner p {
+#banner .banner-text p {
     width: 48%;
     font-size: 24px;
     color: rgba(255, 255, 255, 0.9);
