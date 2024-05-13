@@ -249,6 +249,10 @@ footer {
     
     /* Header */
     
+    header {
+        gap: 15px;
+    }
+
     header nav ul li a {
         font-weight: 600;
     }
@@ -259,9 +263,7 @@ footer {
     }
     
     #banner img {
-        width: 30%;
-        right: 35px;
-        top: 250px;
+        width: 80%;
     }
     
     #banner p {
@@ -307,18 +309,17 @@ footer {
     /* banner */
     #banner {
         display: block;
-        padding-left: 20px;
     }
     
-    #banner img {
-        width: 20%;
-        right: 35px;
-        top: 250px;
-    }
-    
-    #banner p {
+    #banner .banner-text {
         width: 100%;
-        font-size: 20px;
+    }
+
+    #banner .banner-img {
+        width: 100%;
+    }
+    
+    #banner .banner-text {
         margin: 30px 0;
     }
 
