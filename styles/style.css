@@ -38,7 +38,6 @@ header {
 
 header img {
     width: 100px;
-    filter: drop-shadow(0 0 5px white);
 }
 
 header nav ul {
@@ -248,9 +247,26 @@ button:hover {
 
 /* Footer */
 footer {
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
     padding: 20px;
     background-color: black;
+    font-size: 20px;
+}
+
+footer a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+}
+
+footer a i {
+    font-size: 30px;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.445);
 }
 
 
