@@ -60,18 +60,21 @@ header nav ul li a:hover {
 
 #banner {
     display: flex;
-    flex-direction: column;
-    justify-content: center;   
+    align-items: center;   
     background-image:url("../assets/background.jpg");
     background-size: cover;
-    color: white;
-    padding-left: 150px;
+}
+
+#banner .banner-text {
+    width: 50%;
+}
+
+#banner .banner-img {
+    width: 50%;
+    text-align: center;
 }
 
 #banner .banner-img img {
-    width: 15%;
-    position: absolute;
-    right: 400px;
     background-color:#070f2b85;
     border-radius: 50%;
     transform: scaleX(-1);
@@ -79,10 +82,11 @@ header nav ul li a:hover {
 
 #banner .banner-text h1 {
     font-size: 40px;
+    width: 100%;
 }
 
 #banner .banner-text p {
-    width: 48%;
+    width: 100%;
     font-size: 24px;
     color: rgba(255, 255, 255, 0.9);
 }
