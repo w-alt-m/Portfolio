@@ -231,6 +231,15 @@ button:hover {
     background-color: var(--color-2);
 }
 
+/* Separator */
+.separator {
+    width: 0;
+    height: 0;
+    border-right: 100vw solid transparent;
+    border-bottom: 8vw solid black;
+    margin-top: -8vw;
+}
+
 /* Footer */
 footer {
     text-align: center;
