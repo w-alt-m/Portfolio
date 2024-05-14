@@ -135,6 +135,21 @@ header nav ul li a:hover {
     box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.1);
 }
 
+#education .education-card {
+    background-color: var(--color-4);
+}
+
+#education .education-card .education-img-container img {
+    width: 100%;
+    filter:brightness(0.7);
+    transition: 0.3s;
+    
+}
+
+#education .education-card .education-img-container img:hover {
+    filter: brightness(0.95);
+}
+
 /* Scroll button / Linkedin button */
 .scroll-up, .linkedin {
     display: flex;
