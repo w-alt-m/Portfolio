@@ -147,7 +147,7 @@ header nav ul li a:hover {
     width: 60px;
     font-size: 50px;
     margin: 0 50px 50px 0;
-    background-color: rgba(128, 128, 128, 0.11);
+    background-color: rgba(128, 128, 128, 0.3);
     border-radius: 50%;
     text-decoration: none;
     color: white;
@@ -359,5 +359,9 @@ footer p {
     form {
         width: 100%;
         padding: 15px;
+    }
+    /* scroll/linkedin button */
+    .scroll-up, .linkedin {
+        margin: 0 15px 45px 0;
     }
 }
