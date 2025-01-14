@@ -12,3 +12,14 @@ const socialIcons = [
     url: "https://github.com/w-alt-m",
   },
 ];
+
+const socialList = document.querySelector("#social-list");
+console.log(socialList);
+
+socialIcons.forEach((icon) => {
+  socialList.innerHTML += `
+  <li>
+  <a href="${icon.url}" target="_blank">${icon.icon}</a>
+  </li>
+  `;
+});
