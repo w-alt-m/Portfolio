@@ -13,6 +13,7 @@ h1 {
   font-family: var(--title-font);
 }
 
-p {
+p,
+span {
   font-family: var(--text-font);
 }

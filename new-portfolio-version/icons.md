@@ -2,10 +2,6 @@
 
 <i class='bx bx-envelope'></i>
 
-## Call
-
-<i class='bx bx-phone'></i>
-
 ## LinkedIn
 
 <i class='bx bxl-linkedin-square' ></i>
@@ -25,3 +21,7 @@
 ## Javascript
 
 <i class='bx bxl-javascript' ></i>
+
+## World
+
+<i class='bx bx-world'></i>
